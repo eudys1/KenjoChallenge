@@ -24,7 +24,7 @@ albumDbRouter.put('/:id',
     albumDbMicroservice.updateById(req, res, next);
   });
 
-// UPDATE
+// DELETE
 albumDbRouter.delete('/:id',
   (req, res, next) => {
     albumDbMicroservice.deleteById(req, res, next);
